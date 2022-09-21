@@ -37,6 +37,7 @@ h3 {
     justify-content: space-between;
     align-content: center;
     padding-top: 36px;
+    padding-bottom: 70px;
 }
 
 .nav-top {
@@ -440,7 +441,6 @@ input::placeholder {
 
 .bg-footer {
     background: #252B42;
-    padding-bottom: 70px;
 }
 
 .h3-footer {
@@ -452,11 +452,9 @@ input::placeholder {
     display: flex;
     justify-content: space-between;
     padding-top: 53px;
-    padding-left: 195px;
 }
 
 .socials {
-    margin-right: 240px;
     width: 156px;
     height: 24px;
     display: flex;
@@ -465,10 +463,8 @@ input::placeholder {
 }
 
 .border-footer {
-    margin-left: 192px;
     margin-top: 57px;
     margin-bottom: 70px;
-    margin-right: 191px;
 
     border: 1px solid #364067;
 }
@@ -495,8 +491,7 @@ input::placeholder {
 }
 
 .nav-bar {
-    padding-left: 195px;
-    padding-right: 422px;
+
 }
 
 .container-menu-footer {
@@ -518,7 +513,7 @@ input::placeholder {
 }
 
 .container-bottom {
-    padding-left: 195px;
+
 }
 
 .bg-footer-2 {
@@ -599,6 +594,7 @@ input::placeholder {
 }
 
 .icon-search-and-basket {
+    gap: 17px;
     padding-left: 17px;
     display: flex;
     align-items: center;
