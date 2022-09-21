@@ -409,10 +409,6 @@ input::placeholder {
     flex-wrap: wrap;
 }
 
-.padding-h6 {
-
-}
-
 .width-message {  
     width: 591px;
     height: 140px;
@@ -490,10 +486,6 @@ input::placeholder {
     padding-bottom: 20px;
 }
 
-.nav-bar {
-
-}
-
 .container-menu-footer {
     display: flex;
     flex-direction: column;
@@ -510,10 +502,6 @@ input::placeholder {
     letter-spacing: 0.2px;
     color: #BDBDBD;
     padding-bottom: 10px;
-}
-
-.container-bottom {
-
 }
 
 .bg-footer-2 {
