@@ -19,7 +19,7 @@ p {
 
 h3 {
     /* h3 */
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -44,7 +44,7 @@ h3 {
     display: flex;
     align-items: center;
     /* link */
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -73,7 +73,7 @@ h3 {
 
 h1 {
     /* h1 */
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 58px;
@@ -89,7 +89,7 @@ h1 {
 
 h4 {
     /* h4 */
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -128,7 +128,7 @@ h4 {
     border-radius: 37px;
 
     /* btn-text */
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -157,7 +157,7 @@ h4 {
     border-radius: 37px;
 
     /* btn-text */
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -173,7 +173,7 @@ h4 {
 
 h2 {
     /* h2 */
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -206,7 +206,7 @@ h2 {
     padding-right: 197px;
 
     /* paragraph */
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -248,7 +248,7 @@ h2 {
 
 h5 {
     /* h5 */
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -263,7 +263,7 @@ h5 {
 
 .text-card {
     /* paragraph */
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -293,7 +293,7 @@ h5 {
 
 h6 {
     /* h6 */
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -319,7 +319,7 @@ h6 {
 .after-contact-us-p {
     padding-bottom: 40px;
     /* paragraph */
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -343,7 +343,7 @@ h6 {
 
 .btn-text {
     /* btn-text */
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -375,8 +375,7 @@ h6 {
 }
 
 input::placeholder {
-    padding-left: 21px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -386,8 +385,9 @@ input::placeholder {
 }
 
 .wrapper-field {
-    padding-left: 21px;
-    font-family: 'Montserrat';
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -494,7 +494,7 @@ input::placeholder {
 }
 
 .padding-a {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -536,7 +536,7 @@ input::placeholder {
     border: 1px solid #E6E6E6;
     border-radius: 0px 5px 5px 0px;
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -561,7 +561,7 @@ input::placeholder {
     padding-top: 15px;
     padding-bottom: 15px;
     top: calc(50% - 28px/2);
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -575,7 +575,7 @@ input::placeholder {
     padding-right: 22.5px;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -586,7 +586,7 @@ input::placeholder {
 }
 
 .text123 {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -607,31 +607,39 @@ input::placeholder {
 }
 
 .icon-facebook {
+    display: block;
     width: 24px;
     height: 24px;
     background-image: url(images/icons/icon-facebook.svg);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .icon-instagram {
+    display: block;
     width: 24px;
     height: 24px;
     background-image: url(images/icons/icon-instagram.svg);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .icon-twitter {
+    display: block;
     width: 24px;
     height: 24px;
     background-image: url(images/icons/icon-twitter.svg);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .icon-youtube {
+    display: block;
     width: 24px;
     height: 24px;
     background-image: url(images/icons/icon-youtube.svg);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .navbar-toggle {
@@ -642,11 +650,17 @@ input::placeholder {
     top: 45px;
 }
 
+.nav-bar-container {
+    display: flex;
+}
+
+textarea::placeholder {
+    color: #BDBDBD;
+}
+
 @media only screen and (max-width: 576px) {
     .container {
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 576px;
+        width: calc(100% - 86px);
         margin: auto;
     }
 
@@ -654,24 +668,8 @@ input::placeholder {
         display: none;
     }
 
-    h1 {
-        /* h2 */
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 57px;
-    /* or 142% */
-
-    text-align: center;
-    letter-spacing: 0.2px;
-
-    /* text-color */
-
-    color: #252B42;
+    .container-card {
+        flex-direction: column;
+        width: 100%;
     }
-
-    .size-content-header {
-        width: 576px;
-    }
-  }
+}

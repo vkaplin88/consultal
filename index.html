@@ -18,19 +18,21 @@
                     <div class="nav-barand">
                         <h3>Consultal</h3>
                     </div>
-                    <nav class="nav-top">
-                        <a href="/">Home</a>
-                        <a href="/">Product</a>
-                        <a href="/">Pricing</a>
-                        <a href="/">Contact</a>
-                    </nav>
-                    <div class="icon-search-and-basket">
-                        <img src="images/icons/icon-search.svg" alt="Icon search">
-                        <img src="images/icons/icon-basket.svg" alt="Icon basket">
+                    <div class="nav-bar-container">
+                        <nav class="nav-top">
+                            <a href="/">Home</a>
+                            <a href="/">Product</a>
+                            <a href="/">Pricing</a>
+                            <a href="/">Contact</a>
+                        </nav>
+                        <div class="icon-search-and-basket">
+                            <img src="images/icons/icon-search.svg" alt="Icon search">
+                            <img src="images/icons/icon-basket.svg" alt="Icon basket">
+                        </div>
                     </div>
-                    <div class="navbar-toggle">
+                    <a class="navbar-toggle" href="/">
                         <img src="images/icons/navbar-toggler.svg" alt="Navbar toggle">
-                    </div>
+                    </a>
                 </div>
             </div>
             <div class="wrapper-content-header size-content-header">
@@ -121,7 +123,7 @@
                               </select>
                         </div>
                         <div class="container-fileds">
-                            <input class="wrapper-field padding-field width-message" type="textarea" name="input" placeholder="Message">
+                            <textarea class="wrapper-field padding-field width-message" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
                         </div>
                         <button type="submit" class="button-book-appointment btn-text" href="/">Book Appointment</button>
                     </form>  
@@ -147,12 +149,18 @@
             <div class="footer-top">
                 <h3 class="h3-footer">Consultal</h3>
                 <div class="socials">
-                    <i class="icon-facebook">
-                        <a href="/"></a>
-                    </i>
-                    <i class="icon-instagram"></i>
-                    <i class="icon-twitter"></i>
-                    <i class="icon-youtube"></i>
+                    <a href="/">
+                        <i class="icon-facebook"></i>
+                    </a>
+                    <a href="/">
+                        <i class="icon-instagram"></i>
+                    </a>
+                    <a href="/">
+                        <i class="icon-twitter"></i>
+                    </a>
+                    <a href="/">
+                        <i class="icon-youtube"></i>
+                    </a>
                 </div>
             </div>
             <div class="border-footer"></div> 
@@ -187,15 +195,15 @@
                 </div>
                 <div class="container-menu-footer">
                     <h5>Get In Touch</h5>
-                    <div class="button-bottom-1">
+                    <form class="button-bottom-1">
                         <div>
-                            <input class="bg1" type="text" size="14" name="input" placeholder="Your Email">
+                            <input class="bg1 wrapper-field" type="text" size="14" name="input" placeholder="Your Email">
                         </div>
                         <div>
                             <button class="bg2" type="submit">Subscribe</button>
                             <!-- <p class="text-bottom-2">Subscribe</p> -->
                         </div>
-                    </div>
+                    </form>
                     <p class="text123">Lorem impsum dolor amit</p>
                 </div>
             </nav>
