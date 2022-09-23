@@ -23,11 +23,14 @@
                         <a href="/">Product</a>
                         <a href="/">Pricing</a>
                         <a href="/">Contact</a>
-                        <div class="icon-search-and-basket">
-                            <img src="images/icons/icon-search.svg" alt="Icon search">
-                            <img src="images/icons/icon-basket.svg" alt="Icon basket">
-                        </div>
                     </nav>
+                    <div class="icon-search-and-basket">
+                        <img src="images/icons/icon-search.svg" alt="Icon search">
+                        <img src="images/icons/icon-basket.svg" alt="Icon basket">
+                    </div>
+                    <div class="navbar-toggle">
+                        <img src="images/icons/navbar-toggler.svg" alt="Navbar toggle">
+                    </div>
                 </div>
             </div>
             <div class="wrapper-content-header size-content-header">
@@ -101,23 +104,24 @@
                     <h5>Contact Us</h5>
                     <h2>Make an Appointment</h2>
                     <form action="">
-                        <div class="container-fileds">
+                        <div class="container-fileds padding-top20">
                             <input class="wrapper-field padding-field" type="text" name="input" placeholder="Full Name">
                             <input class="wrapper-field padding-field" type="text" name="input" placeholder="example@gmail.com">
-                            <select class="wrapper-field" name="select"> <!--Supplement an id here instead of using 'name'-->
+                        </div>
+                        <div class="container-fileds">
+                            <select class="wrapper-field padding-field" name="select"> <!--Supplement an id here instead of using 'name'-->
                                 <option value="value1">Please Select</option>
                                 <option value="value2" selected>Please Select</option>
                                 <option value="value3">Please Select</option>
                               </select>
-                              <select class="wrapper-field" name="select"> <!--Supplement an id here instead of using 'name'-->
+                              <select class="wrapper-field padding-field" name="select"> <!--Supplement an id here instead of using 'name'-->
                                 <option value="value1">4:00 Available</option>
                                 <option value="value2" selected>4:00 Available</option>
                                 <option value="value3">4:00 Available</option>
                               </select>
-                            <div class="wrapper-field width-message">
-                                <input class="wrapper-field padding-field" type="textarea" name="input" placeholder="Message">
-                                <h6 class="padding-h6">Message</h6>
-                            </div>
+                        </div>
+                        <div class="container-fileds">
+                            <input class="wrapper-field padding-field width-message" type="textarea" name="input" placeholder="Message">
                         </div>
                         <button type="submit" class="button-book-appointment btn-text" href="/">Book Appointment</button>
                     </form>  
@@ -143,10 +147,12 @@
             <div class="footer-top">
                 <h3 class="h3-footer">Consultal</h3>
                 <div class="socials">
-                    <img src="images/icons/icon-facebook.svg" alt="Icon Facebook">
-                    <img src="images/icons/icon-instagram.svg" alt="Icon Instagram">
-                    <img src="images/icons/icon-twitter.svg" alt="Icon Twitter">
-                    <img src="images/icons/icon-youtube.svg" alt="Icon YouTube">
+                    <i class="icon-facebook">
+                        <a href="/"></a>
+                    </i>
+                    <i class="icon-instagram"></i>
+                    <i class="icon-twitter"></i>
+                    <i class="icon-youtube"></i>
                 </div>
             </div>
             <div class="border-footer"></div> 
@@ -182,11 +188,12 @@
                 <div class="container-menu-footer">
                     <h5>Get In Touch</h5>
                     <div class="button-bottom-1">
-                        <div class="bg1">
-                            <p class="text-bottom-1">Your Email</p>
+                        <div>
+                            <input class="bg1" type="text" size="14" name="input" placeholder="Your Email">
                         </div>
-                        <div class="bg2">
-                            <p class="text-bottom-2">Subscribe</p>
+                        <div>
+                            <button class="bg2" type="submit">Subscribe</button>
+                            <!-- <p class="text-bottom-2">Subscribe</p> -->
                         </div>
                     </div>
                     <p class="text123">Lorem impsum dolor amit</p>

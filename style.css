@@ -400,13 +400,15 @@ input::placeholder {
     /* muted-color */
     border: 1px solid #BDBDBD;
     border-radius: 5px;
-    padding-left: 20px;
 }
 
 .container-fileds {
-    padding-top: 40px;
+    padding-top: 20px;
     display: flex;
-    flex-wrap: wrap;
+}
+
+.padding-top20 {
+    margin-top: 20px;
 }
 
 .width-message {  
@@ -418,7 +420,6 @@ input::placeholder {
 
 .padding-field {
     margin-right: 21px;
-    margin-bottom: 20px;
 }
 
 .button-book-appointment {
@@ -452,7 +453,6 @@ input::placeholder {
 
 .socials {
     width: 156px;
-    height: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -522,15 +522,33 @@ input::placeholder {
 }
 
 .bg1 {
+    width: 204px;
+    height: 58px;
     background: #F9F9F9;
     border: 1px solid #E6E6E6;
-    border-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
 }
 
 .bg2 {
+    width: 117px;
+    height: 58px;
     background: #FF7B47;
     border: 1px solid #E6E6E6;
     border-radius: 0px 5px 5px 0px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    
+    text-align: center;
+    letter-spacing: 0.2px;
+    
+    /* light-text-color */
+    
+    color: #FFFFFF;
 }
 
 .button-bottom-1 {
@@ -587,3 +605,73 @@ input::placeholder {
     display: flex;
     align-items: center;
 }
+
+.icon-facebook {
+    width: 24px;
+    height: 24px;
+    background-image: url(images/icons/icon-facebook.svg);
+    background-repeat: no-repeat;
+}
+
+.icon-instagram {
+    width: 24px;
+    height: 24px;
+    background-image: url(images/icons/icon-instagram.svg);
+    background-repeat: no-repeat;
+}
+
+.icon-twitter {
+    width: 24px;
+    height: 24px;
+    background-image: url(images/icons/icon-twitter.svg);
+    background-repeat: no-repeat;
+}
+
+.icon-youtube {
+    width: 24px;
+    height: 24px;
+    background-image: url(images/icons/icon-youtube.svg);
+    background-repeat: no-repeat;
+}
+
+.navbar-toggle {
+    position: absolute;
+    width: 24px;
+    height: 13.71px;
+    left: calc(50% - 24px/2 + 649px);
+    top: 45px;
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 576px;
+        margin: auto;
+    }
+
+    .nav-top {
+        display: none;
+    }
+
+    h1 {
+        /* h2 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    /* or 142% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* text-color */
+
+    color: #252B42;
+    }
+
+    .size-content-header {
+        width: 576px;
+    }
+  }
