@@ -741,4 +741,38 @@ textarea::placeholder {
         height: 13.71px;
         top: 9px;
     }
+
+    .topnav.responsive {
+        position: absolute;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        left: 0;
+        top: 120px;
+        background-color: #fff;
+        border-bottom: 1px #000 solid;
+    }
+
+    .topnav a {
+        /* mobile-menu */
+        padding-bottom: 30px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45px;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+        letter-spacing: 0.2px;
+
+        /* second-text-color */
+
+        color: #737373;
+    }
+
+    .topnav {
+        display: none;
+    }
 }
