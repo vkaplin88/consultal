@@ -672,4 +672,115 @@ textarea::placeholder {
         flex-direction: column;
         width: 100%;
     }
+
+    h1 {
+        /* h2 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    /* or 142% */
+    text-align: center;
+    letter-spacing: 0.2px;
+    /* text-color */
+    color: #252B42;
+    }
+
+    .buttons-header {
+        display: block;
+    }
+
+    .size-content-header {
+        width: auto;
+    }
+
+    .text-content-header {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .button-learn-more {
+        margin-top: 25px;
+    }
+
+    .wrapper-title-section {
+        padding-top: 75px;
+    }
+
+    .text-title-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .buttons-header {
+        padding-bottom: 52px;
+    }
+
+    .container-card {
+        margin-bottom: 130px;
+    }
+
+    .form-contact-us {
+        width: auto;
+    }
+
+    .container-fileds {
+        display: block;
+        padding-top: 0px;
+    }
+
+    .wrapper-field {
+        margin-bottom: 20px;
+    }
+
+    .padding-top {
+        margin-top: 40px;
+    }
+
+    .width-message {
+        width: auto;
+    }
+
+    .padding-field {
+        margin-right: 0px;
+    }
+
+    .wrapper-after-contact-us-text {
+        padding-left: 46px;
+        padding-right: 40px;
+    }
+
+    .after-contact-us {
+        display: block;
+    }
+
+    .after-contact-us-p {
+        padding-top: 10px;
+        padding-right: 35px;
+        padding-bottom: 0px;
+    }
+
+    .wrapper-button-contact-us {
+        padding-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .footer-top {
+        display: block;
+    }
+
+    .h3-footer {
+        padding-bottom: 63px;
+    }
+
+    .border-footer {
+        display: none;
+    }
 }
