@@ -276,7 +276,7 @@ h5 {
     color: #737373;
     padding-right: 43px;
     padding-left: 40px;
-    padding-bottom: 35px;
+    padding-bottom: 30px;
 }
 
 .bg-header {
@@ -688,7 +688,10 @@ textarea::placeholder {
     }
 
     .buttons-header {
-        display: block;
+        display: flex;
+        width: unset;
+        flex-direction: column;
+        align-items: center;
     }
 
     .size-content-header {
@@ -729,11 +732,15 @@ textarea::placeholder {
 
     .form-contact-us {
         width: auto;
+        padding-top: 115px;
     }
 
     .container-fileds {
-        display: block;
+        display: flex;
         padding-top: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .wrapper-field {
@@ -782,5 +789,52 @@ textarea::placeholder {
 
     .border-footer {
         display: none;
+    }
+
+    .footer-nav-bar {
+        padding-bottom: 40px;
+        padding-top: 110px;
+        display: block;
+    }
+
+    .container-menu-footer {
+        padding-bottom: 30px;
+    }
+
+    .text123 {
+        color: #FFFFFF;
+    }
+
+    h6 {
+        text-align: center;
+        padding-left: 53.5px;
+        padding-right: 53.5px;
+        color: #FFF;
+    }
+
+    .wrapper-contact-us {
+        background-position: center top;
+        background-size: cover;
+    }
+    
+    textarea {
+        width: 285px;
+    }
+
+    .button-book-appointment {
+        width: 285px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .navbar-toggle {
+        position: relative;
+        right: 15px;
+        left: 0px;
+        width: 24px;
+        height: 13.71px;
+        /* left: calc(50% - 24px/2 + 649px); */
+        top: 9px;
     }
 }
